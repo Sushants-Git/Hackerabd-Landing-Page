@@ -1,0 +1,85 @@
+.main {
+  position: relative;
+  text-align: center;
+  padding: 1px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-light {
+  background-color: #ffde00;
+}
+
+.main-dark {
+  background-color: #171717;
+}
+
+.main-p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  text-align: center;
+  width: 490px;
+  margin: auto;
+}
+
+.main-p-light {
+  color: #171717;
+}
+
+.main-p-dark {
+  color: white;
+}
+
+.blink {
+  mix-blend-mode: overlay;
+}
+
+.darkMode-light {
+  cursor: pointer;
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  background-color: #171717;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 20px;
+}
+.darkMode-dark {
+  cursor: pointer;
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  background-color: #ffdd00;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.circle-light {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-left: 1px;
+  background-color: #ffffff;
+}
+
+.circle-dark {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-left: 1px;
+  background-color: #171717;
+}

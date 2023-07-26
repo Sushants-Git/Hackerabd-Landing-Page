@@ -1,0 +1,94 @@
+.quote-first::after {
+  content: "“";
+  opacity: 0.8;
+  color: #fffcec;
+}
+.quote-second {
+  position: relative;
+}
+
+.quote-second::before {
+  position: absolute;
+  bottom: -0.5em;
+  content: "”";
+  opacity: 0.8;
+  color: #fffcec;
+  width: max-content;
+}
+h1 {
+  display: block;
+  max-width: max-content;
+  text-align: center;
+  margin: auto;
+  font-size: 8rem;
+  font-weight: 900;
+}
+.name-light {
+  background: -webkit-linear-gradient(
+    90deg,
+    #ffdd00 0%,
+    #171717 57%,
+    #171717 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.name-dark {
+  background: -webkit-linear-gradient(
+    90deg,
+    #171717 0%,
+    #ffdd00 57%,
+    #ffdd00 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.strong-light {
+  background: -webkit-linear-gradient(90deg, #ffdd00 0%, #171717 49%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.strong-dark {
+  background: -webkit-linear-gradient(90deg, #171717 0%, #ffdd00 49%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.joinUs-light {
+  background: -webkit-linear-gradient(
+    90deg,
+    #ffffff 27%,
+    #ffdd00 49%,
+    #ffffff 71%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.joinUs-dark {
+  background: #171717;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.main-cta {
+  margin-top: 25px;
+  display: inline-block;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 15px;
+  text-align: center;
+  width: 90vw;
+  max-width: 100px;
+  border-radius: 12px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.main-cta-light {
+  background-color: #171717;
+}
+
+.main-cta-dark {
+  background-color: #ffdd00;
+}
